@@ -1,0 +1,32 @@
+13 Jan 2022 - 12:18:28.092 [restartedMain] INFO  c.c.SpringbootmasterApplication - Starting SpringbootmasterApplication using Java 17.0.1 on LAPTOP-BLGNIC5O with PID 544 (E:\STS13\springbootmaster\target\classes started by HP in E:\STS13\springbootmaster)
+13 Jan 2022 - 12:18:28.093 [restartedMain] INFO  c.c.SpringbootmasterApplication - No active profile set, falling back to default profiles: default
+13 Jan 2022 - 12:18:28.125 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13 Jan 2022 - 12:18:28.125 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13 Jan 2022 - 12:18:28.734 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+13 Jan 2022 - 12:18:28.766 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interfaces.
+13 Jan 2022 - 12:18:29.192 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8765 (http)
+13 Jan 2022 - 12:18:29.200 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13 Jan 2022 - 12:18:29.201 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+13 Jan 2022 - 12:18:29.203 [restartedMain] WARN  o.a.c.core.AprLifecycleListener - This listener must only be nested within Server elements, but is in [TomcatEmbeddedContext].
+13 Jan 2022 - 12:18:29.203 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+13 Jan 2022 - 12:18:29.203 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+13 Jan 2022 - 12:18:29.203 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+13 Jan 2022 - 12:18:29.216 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+13 Jan 2022 - 12:18:29.277 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13 Jan 2022 - 12:18:29.279 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1153 ms
+13 Jan 2022 - 12:18:29.448 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+13 Jan 2022 - 12:18:29.478 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.3.Final
+13 Jan 2022 - 12:18:29.580 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+13 Jan 2022 - 12:18:29.641 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+13 Jan 2022 - 12:18:29.879 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13 Jan 2022 - 12:18:29.904 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+13 Jan 2022 - 12:18:30.308 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13 Jan 2022 - 12:18:30.313 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13 Jan 2022 - 12:18:30.563 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13 Jan 2022 - 12:18:31.161 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+13 Jan 2022 - 12:18:31.166 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+13 Jan 2022 - 12:18:31.201 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8765 (http) with context path ''
+13 Jan 2022 - 12:18:31.213 [restartedMain] INFO  c.c.SpringbootmasterApplication - Started SpringbootmasterApplication in 3.393 seconds (JVM running for 4.002)
+13 Jan 2022 - 12:18:31.758 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13 Jan 2022 - 12:18:31.758 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13 Jan 2022 - 12:18:31.759 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms

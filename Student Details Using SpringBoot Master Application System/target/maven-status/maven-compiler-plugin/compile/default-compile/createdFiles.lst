@@ -1,0 +1,8 @@
+com\capgemini\controller\MessageController.class
+com\capgemini\exception\StudentNotFoundException.class
+com\capgemini\SpringbootmasterApplication.class
+com\capgemini\entity\StudentEntity.class
+com\capgemini\serviceImpl\StudentServiceImpl.class
+com\capgemini\controller\StudentController.class
+com\capgemini\repository\StudentRepository.class
+com\capgemini\service\StudentService.class
